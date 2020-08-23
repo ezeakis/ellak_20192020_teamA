@@ -1,4 +1,3 @@
 Η ιδέα είναι να δημιουργήσουμε ένα πλεούμενο ρομπότ το οποίο θα μαζεύει πετρέλαιο.
 
-Τα υλικά που θα χρειαστούμε βρίσκονται εδώ.
-https://github.com/ezeakis/ellak_20192020_teamA/blob/master/%CE%A5%CE%BB%CE%B9%CE%BA%CE%AC
+Τα υλικά που θα χρειαστούμε βρίσκονται [εδώ](https://github.com/ezeakis/ellak_20192020_teamA/blob/master/%CE%A5%CE%BB%CE%B9%CE%BA%CE%AC).
