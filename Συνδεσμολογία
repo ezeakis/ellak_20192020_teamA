@@ -1,0 +1,49 @@
+Στο μικρό breadboard βαφτίζουμε την πρώτη στήλη "Γη", τη δεύτερη "Τάση των ηλεκτρονικών" και την τρίτη "Τάση των κινητήρων".
+
+Τοποθετούμε τον αισθητήρα στο breadboard.
+
+Κοιτάμε τον αισθητήρα από τη μεριά που είναι το "καρούμπαλο".
+
+1ο άκρο αισθητήρα –&gt; καλώδιο -&gt; Arduino 11
+
+2o άκρο αισθητήρα –&gt; καλώδιο -&gt; Breadboard Γη
+
+3o άκρο αισθητήρα –&gt; καλώδιο -&gt; Breadboard Τάση των ηλεκτρονικών
+
+PWMA του driver -&gt; Arduino 5
+
+AIN1 του driver -&gt; Arduino 2
+
+AIN2 του driver -&gt; Arduino 4
+
+STBY του driver -&gt; Arduino 10
+
+PWMB του driver -&gt; Arduino 6
+
+BIN1 του driver -&gt; Arduino 8
+
+BIN2 του driver -&gt; Arduino 12
+
+GND του driver -&gt; Breadboard Γη
+
+VM του driver -&gt; Breadboard Τάση των κινητήρων
+
+VCC του driver -&gt; Breadboard Τάση των ηλεκτρονικών
+
+GND του driver -&gt; Breadboard Γη
+
+Breadboard Τάση των κινητήρων -&gt; Κόκκινο καλώδιο θήκης μπαταριών
+
+Breadboard Γη -&gt; Μαύρο καλώδιο θήκης μπαταριών
+
+Breadboard Τάση των ηλεκτρονικών -&gt; Arduino 5V
+
+Breadboard Γη -&gt; Arduino Ground
+
+A01 του driver -&gt; ένα άκρο DC κινητήρα 1
+
+A02 του driver -&gt; άλλο άκρο DC κινητήρα 1
+
+B01 του driver -&gt; ένα άκρο DC κινητήρα 2
+
+B02 του driver -&gt; άλλο άκρο DC κινητήρα 2
