@@ -1,0 +1,119 @@
+Πριν μεταφέρουμε τον κώδικα χρειάζεται να ελέγξουμε αν υπάρχει η βιβλιοθήκη για τις υπέρυθρες στην εφαρμογή Arduino του υπολογιστή μας. Ζητάμε τη βοήθεια ενός mentor.
+
+Αν δεν υπάρχει την κατεβάζουμε από εδώ
+
+https://github.com/shirriff/Arduino-IRremote
+
+και την προσθέτουμε
+
+Ομοίως ελέγχουμε αν το πρόγραμμα του Arduino έχει τη βιβλιοθήκη για τον driver που έχουμε (TB6612FNG).
+
+Αν όχι την κατεβάζουμε από εδώ
+
+https://github.com/sparkfun/SparkFun_TB6612FNG_Arduino_Library
+
+και την εγκαθιστούμε
+
+#include 
+
+#include 
+
+#include 
+
+int RECV_PIN = 11;
+
+#define AIN1 2
+
+#define AIN2 4
+
+#define PWMA 5
+
+#define BIN1 8
+
+#define BIN2 12
+
+#define PWMB 6
+
+#define STBY 10
+
+IRrecv irrecv(RECV_PIN);
+
+decode_results results;
+
+int pos = 0;
+
+const int offsetA = 1;
+
+const int offsetB = 1;
+
+Motor motor1 = Motor(AIN1, AIN2, PWMA, offsetA, STBY);
+
+Motor motor2 = Motor(BIN1, BIN2, PWMB, offsetB, STBY);
+
+void setup()
+
+{
+
+Serial.begin(9600);
+
+irrecv.enableIRIn(); // Start the receiver
+
+}
+
+void loop()
+
+{
+
+if (irrecv.decode(&amp;results))
+
+{
+
+ Serial.println(results.value);
+ 
+ //Serial.println(results.value, HEX);
+ 
+ if (results.value == 1000) {
+ 
+  forward(motor1, motor2, 255);
+ 
+ }
+ 
+ else if (results.value == 1001) {
+ 
+  back(motor1, motor2, 255);
+ 
+ }
+
+ else if (results.value == 1002) {
+ 
+  right(motor1, motor2, 255);
+ 
+ }
+
+ else if (results.value == 1003) {
+ 
+  left(motor1, motor2, 255);
+ 
+ }
+
+ else if (results.value == 1004) {
+ 
+  brake(motor1, motor2, 255);
+ 
+ }
+
+
+ irrecv.resume(); // Receive the next value
+ 
+}
+}
+
+Ανοίγουμε το παράθυρο "Εργαλεία / Παρακολούθηση Σειριακής" ή "Tools / Serial Monitor"
+
+Πατάμε τα κουμπιά του τηλεχειριστήριου και παρατηρούμε τις τιμές που εμφανίζει το Arduino για κάθε ένα από αυτά.
+
+Αποφασίζουμε ποια κουμπιά θέλουμε για να κινείται το όχημα μπρος, πίσω, δεξιά, αριστερά και να σταματάει και σημειώνουμε τους κωδικούς τους.
+
+Βάζουμε αυτούς τους κωδικούς στη θέση των 1000, 1001, 1002, 1003, 1004 στον κώδικα
+
+Ξαναγράφουμε τον κώδικα στο Arduino και δοκιμάζουμε να πατήσουμε αυτά τα κουμπιά.
