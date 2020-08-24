@@ -4,46 +4,46 @@
 
 Κοιτάμε τον αισθητήρα από τη μεριά που είναι το "καρούμπαλο".
 
-1ο άκρο αισθητήρα –&gt; καλώδιο -&gt; Arduino 11
+1ο άκρο αισθητήρα --> καλώδιο --> Arduino 11
 
-2o άκρο αισθητήρα –&gt; καλώδιο -&gt; Breadboard Γη
+2o άκρο αισθητήρα --> καλώδιο --> Breadboard Γη
 
-3o άκρο αισθητήρα –&gt; καλώδιο -&gt; Breadboard Τάση των ηλεκτρονικών
+3o άκρο αισθητήρα --> καλώδιο --> Breadboard Τάση των ηλεκτρονικών
 
-PWMA του driver -&gt; Arduino 5
+PWMA του driver --> Arduino 5
 
-AIN1 του driver -&gt; Arduino 2
+AIN1 του driver --> Arduino 2
 
-AIN2 του driver -&gt; Arduino 4
+AIN2 του driver --> Arduino 4
 
-STBY του driver -&gt; Arduino 10
+STBY του driver --> Arduino 10
 
-PWMB του driver -&gt; Arduino 6
+PWMB του driver --> Arduino 6
 
-BIN1 του driver -&gt; Arduino 8
+BIN1 του driver --> Arduino 8
 
-BIN2 του driver -&gt; Arduino 12
+BIN2 του driver --> Arduino 12
 
-GND του driver -&gt; Breadboard Γη
+GND του driver --> Breadboard Γη
 
-VM του driver -&gt; Breadboard Τάση των κινητήρων
+VM του driver --> Breadboard Τάση των κινητήρων
 
-VCC του driver -&gt; Breadboard Τάση των ηλεκτρονικών
+VCC του driver --> Breadboard Τάση των ηλεκτρονικών
 
-GND του driver -&gt; Breadboard Γη
+GND του driver --> Breadboard Γη
 
-Breadboard Τάση των κινητήρων -&gt; Κόκκινο καλώδιο θήκης μπαταριών
+Breadboard Τάση των κινητήρων --> Κόκκινο καλώδιο θήκης μπαταριών
 
-Breadboard Γη -&gt; Μαύρο καλώδιο θήκης μπαταριών
+Breadboard Γη --> Μαύρο καλώδιο θήκης μπαταριών
 
-Breadboard Τάση των ηλεκτρονικών -&gt; Arduino 5V
+Breadboard Τάση των ηλεκτρονικών --> Arduino 5V
 
-Breadboard Γη -&gt; Arduino Ground
+Breadboard Γη --> Arduino Ground
 
-A01 του driver -&gt; ένα άκρο DC κινητήρα 1
+A01 του driver --> ένα άκρο DC κινητήρα 1
 
-A02 του driver -&gt; άλλο άκρο DC κινητήρα 1
+A02 του driver --> άλλο άκρο DC κινητήρα 1
 
-B01 του driver -&gt; ένα άκρο DC κινητήρα 2
+B01 του driver --> ένα άκρο DC κινητήρα 2
 
-B02 του driver -&gt; άλλο άκρο DC κινητήρα 2
+B02 του driver --> άλλο άκρο DC κινητήρα 2
