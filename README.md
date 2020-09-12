@@ -6,6 +6,8 @@
 
 Ο κώδικας περιγράφεται [εδώ](https://github.com/ezeakis/ellak_20192020_teamA/blob/master/%CE%9A%CF%8E%CE%B4%CE%B9%CE%BA%CE%B1%CF%82).
 
+Μία πρόταση σχεδίου μαθήματος μπορεί να βρεθεί [εδώ](https://github.com/ezeakis/ellak_20192020_teamA/blob/master/%CE%A3%CF%87%CE%AD%CE%B4%CE%B9%CE%BF%20%CE%9C%CE%B1%CE%B8%CE%AE%CE%BC%CE%B1%CF%84%CE%BF%CF%82.md).
+
 Για την κατασκευή έχουμε αξιοποιήσει τα παρακάτω άρθρα
 
 https://www.instructables.com/id/Arduino-Infrared-Remote-tutorial/ 
