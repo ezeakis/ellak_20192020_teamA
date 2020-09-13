@@ -38,8 +38,6 @@ IRrecv irrecv(RECV_PIN);
 
 decode_results results;
 
-int pos = 0;
-
 const int offsetA = 1;
 
 const int offsetB = 1;
