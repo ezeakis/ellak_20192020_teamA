@@ -14,11 +14,11 @@ https://github.com/sparkfun/SparkFun_TB6612FNG_Arduino_Library
 
 και την εγκαθιστούμε
 
-#include 
+#include <IRremote.h>
 
-#include 
+#include <Servo.h>
 
-#include 
+#include <SparkFun_TB6612.h>
 
 int RECV_PIN = 11;
 
