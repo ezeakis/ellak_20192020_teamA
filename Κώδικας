@@ -62,7 +62,7 @@ void loop()
 
 {
 
-if (irrecv.decode(&amp;results))
+if (irrecv.decode(&results))
 
 {
 
