@@ -16,8 +16,6 @@ https://github.com/sparkfun/SparkFun_TB6612FNG_Arduino_Library
 
 #include <IRremote.h>
 
-#include <Servo.h>
-
 #include <SparkFun_TB6612.h>
 
 int RECV_PIN = 11;
